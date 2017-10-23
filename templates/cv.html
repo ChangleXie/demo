@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %} 简历 {% endblock %}
+
+{% block content %}
+<div class="container" >
+	<div class="row clearfix">
+		<div class="col-md-9 column" style="border: solid 2px; background: #f9f9f9;">
+            <br><br><br><br>
+
+
+			<img class="thumbnail" align="right"  src="..\..\static\me.png" />
+
+            <div class="page-header" id="per-info">
+				<h2>
+					个人信息
+				</h2>
+			</div>
+			
+            <ul style="font-size: 25px;color: rgba(65,65,67,0.87);">
+			
+                <li><strong>姓名</strong>：解长乐 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <strong>性别</strong>： 男 </li>
+                <li><strong>户籍</strong>： 泰州兴化 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <strong>现居</strong>： 昆山</li>
+                <li><strong>身高</strong>： 183cm   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <strong>体重</strong>： 72Kg</li>
+                <li><strong>手机</strong>：18068083599 <strong>邮箱</strong>： 531493190@qq.com</li>
+
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            </ul>
+			
+
+            <div class="page-header">
+
+                <h2 id="edu-exp">
+                    教育经历
+                </h2>
+            </div>
+
+            <div>
+                <h4>2013.09-2017.06</h4>
+                <p style="font-size: 25px;color: rgba(65,65,67,0.87);"><strong>学校</strong>：南京师范大学 | <strong>专业</strong>：应用物理</p>
+                <h4>2010.09-2013.06</h4>
+                <p style="font-size: 25px;color: rgba(65,65,67,0.87);"><strong>学校</strong>：江苏省昆山中学</p>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="page-header">
+
+                <h2 id="lang-skill">
+                    语言能力
+                </h2>
+            </div>
+
+            <p style="font-size: 25px;color: rgba(65,65,67,0.87);"><strong>英语</strong>：CET-4</p>
+            <p style="font-size: 25px;color: rgba(65,65,67,0.87);"><strong>计算机</strong>：江苏省二级</p>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div>
+
+        <div class="col-md-3 column" >
+            <nav class="bs-docs-sidebar affix hidden-print hidden-sm hidden-xs" style="background: rgba(176,179,198,0.48);">
+                <ul class="nav bs-docs-sidenav" >
+                    <li><a href="#per-info">个人信息</a></li>
+                    <li><a href="#edu-exp">教育经历</a></li>
+                    <li><a href="#lang-skill">语言能力</a></li>
+                    <li><a href="#top">返回顶部</a></li>
+                </ul>
+            </nav>
+        </div>
+	</div>
+</div>
+{% endblock %}
